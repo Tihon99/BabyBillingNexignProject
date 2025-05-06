@@ -75,7 +75,7 @@ public class ApiTests {
 
         Response response = given()
                 .contentType("application/json")
-                .body("{\"phone_number\": \"79991234567\", \"full_name\": \"Ivan Ivanov\", \"pin\": \"1234\"}")
+                .body("{\"phone_number\": \"79991234567\", \"full_name\": \"John Doe\", \"pin\": \"1234\"}")
                 .when()
                 .post("/subscribers")
                 .then()
